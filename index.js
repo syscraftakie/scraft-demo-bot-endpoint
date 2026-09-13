@@ -117,4 +117,4 @@ app.post("/api/messages", async (req, res) => {
 });
 
 const port = process.env.PORT || 3978;
-app.listen(port, () => console.log(`Bot listening on port
+app.listen(port, () => console.log(`Bot listening on port ${port}`));
